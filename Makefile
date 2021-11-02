@@ -2,6 +2,8 @@ PROG = dwm-run
 INI = dwm.desktop
 PREFIX = /usr/local
 
+nothing:
+
 install:
 	@echo installing executable file to ${DESTDIR}${PREFIX}/bin
 	@mkdir -p ${DESTDIR}${PREFIX}/bin
